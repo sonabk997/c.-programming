@@ -1,9 +1,9 @@
-# include<stdio.h>
+#include<stdio.h>
 void main()
 {
 int i,n,flag=1;
 printf("enter n\n");
-scanf("%d",&n);
+scanf("%d", &n);
 for(i=2;i<n;i++)
 {
 if(n%i==0)

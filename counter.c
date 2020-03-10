@@ -1,12 +1,11 @@
-#include<stdio.h>
-#include <stdbool.h>
+#include <stdio.h>
 int main()
 {
-int counter=1;
-while (true)
+int counter,i;
+for(counter=0; counter<=10; counter++)
 {
-printf("%d\n",counter);
-counter++;
-break;
+if(counter==5) {continue;}
+printf("%d %d", counter,i);
 }
 }
+

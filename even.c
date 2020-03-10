@@ -1,17 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-int a;
-printf("enter the number\n");
-
-scanf("%d",&a);
-if(a%2==0)
-{
-printf("a is even\n");
-}
+int x;
+printf("enter x value\n");
+scanf("%d", &x);
+if(x%2==0)
+printf("even\n");
 else
-{
-printf("a is odd\n");
+printf("odd\n");
 }
-}
-

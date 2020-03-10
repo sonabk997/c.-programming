@@ -1,11 +1,11 @@
- #include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 void main()
 {
 int p,t;
 float emi,r,x,z,y;
 printf("enter the value of p,r,t\n");
-scanf("%d %f",&p,&r,&t);
+scanf("%d %f %d", &p, &r, &t);
 x=t*12;
 y=r/(100*12);
 z=pow((1+y),x);

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
 int counter=1;
@@ -7,6 +7,6 @@ do
 printf("hello\n");
 counter++;
 }
-while(counter<=15
-);
+while(counter<=0);
 }
+
